@@ -18,11 +18,10 @@ public class Coche {
         return modelo;
     }
     public void setMatricula(String matricula) {
-        matricula = this.matricula;
+        this.matricula = matricula;
     }
 
     public void setModelo(String modelo) {
-        modelo = this.modelo;
+        this.modelo = modelo;
     }
-
 }
